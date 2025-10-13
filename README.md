@@ -17,6 +17,7 @@
           <a href="#mission" class="hover:text-blue-600">Mission</a>
           <a href="#values" class="hover:text-blue-600">Values</a>
           <a href="#program" class="hover:text-blue-600">Program</a>
+          <a href="#tutors" class="hover:text-blue-600">Tutors</a>
           <a href="#contact" class="hover:text-blue-600">Contact</a>
         </nav>
       </div>
@@ -108,6 +109,40 @@
           class="mt-8 inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">
           Join the Waitlist
         </a>
+      </div>
+    </section>
+
+    <!-- Tutors Section -->
+    <section id="tutors" class="max-w-6xl mx-auto py-16 px-6">
+      <h3 class="text-3xl font-semibold text-blue-700 mb-10 text-center">Meet Our Tutors</h3>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+        <!-- Tutor 1 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <img src="https://i.pravatar.cc/250?img=3" alt="Tutor 1" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <h4 class="text-xl font-bold text-blue-700">Sharif Magembe</h4>
+          <p class="text-gray-600">Lead Instructor — Software Engineering</p>
+          <p class="mt-3 text-sm text-gray-700">
+            Passionate about helping learners build strong foundations in programming and real-world applications.
+          </p>
+        </div>
+        <!-- Tutor 2 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <img src="https://i.pravatar.cc/250?img=12" alt="Tutor 2" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <h4 class="text-xl font-bold text-blue-700">Sarah Namatovu</h4>
+          <p class="text-gray-600">Tutor — Web Development</p>
+          <p class="mt-3 text-sm text-gray-700">
+            Focused on mentoring learners to design beautiful, functional web applications using modern technologies.
+          </p>
+        </div>
+        <!-- Tutor 3 -->
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <img src="https://i.pravatar.cc/250?img=7" alt="Tutor 3" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <h4 class="text-xl font-bold text-blue-700">Brian Kato</h4>
+          <p class="text-gray-600">Tutor — Data Science & AI</p>
+          <p class="mt-3 text-sm text-gray-700">
+            Enthusiastic about teaching data-driven problem-solving and AI skills for real-world impact.
+          </p>
+        </div>
       </div>
     </section>
 
