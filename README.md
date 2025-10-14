@@ -118,26 +118,26 @@
       <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
         <!-- Tutor 1 -->
         <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
-          <img src="https://i.pravatar.cc/250?img=3" alt="Tutor 1" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <img src="/images/sharif.png" alt="Tutor 1" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
           <h4 class="text-xl font-bold text-blue-700">Sharif Magembe</h4>
-          <p class="text-gray-600">Lead Instructor — Software Engineering</p>
+          <p class="text-gray-600">Lead Instructor — Software Engineering: Proven Experience in Project Delivery in Health sector, Mentoring young students to grow in Tech</p>
           <p class="mt-3 text-sm text-gray-700">
             Passionate about helping learners build strong foundations in programming and real-world applications.
           </p>
         </div>
         <!-- Tutor 2 -->
         <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
-          <img src="https://i.pravatar.cc/250?img=12" alt="Tutor 2" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
-          <h4 class="text-xl font-bold text-blue-700">Sarah Namatovu</h4>
-          <p class="text-gray-600">Tutor — Web Development</p>
+          <img src="/images/mozzy.png" alt="Tutor 2" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <h4 class="text-xl font-bold text-blue-700"> Mr Mutesasira Moses</h4>
+          <p class="text-gray-600"> Instructor Lead, Senior Software Engineer with 10+ Years of Experience with Proven Project Delivery both In Health Sector and Other Out side world</p>
           <p class="mt-3 text-sm text-gray-700">
             Focused on mentoring learners to design beautiful, functional web applications using modern technologies.
           </p>
         </div>
         <!-- Tutor 3 -->
         <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
-          <img src="https://i.pravatar.cc/250?img=7" alt="Tutor 3" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
-          <h4 class="text-xl font-bold text-blue-700">Brian Kato</h4>
+          <img src="/images/hill.jpeg" alt="Tutor 3" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
+          <h4 class="text-xl font-bold text-blue-700">Mr Hillary Kaluuma</h4>
           <p class="text-gray-600">Tutor — Data Science & AI</p>
           <p class="mt-3 text-sm text-gray-700">
             Enthusiastic about teaching data-driven problem-solving and AI skills for real-world impact.
