@@ -1,4 +1,3 @@
-
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,6 +15,7 @@
           <a href="#vision" class="hover:text-blue-600">Vision</a>
           <a href="#mission" class="hover:text-blue-600">Mission</a>
           <a href="#values" class="hover:text-blue-600">Values</a>
+          <a href="services.html" class="hover:text-blue-600">Services</a>
           <a href="#program" class="hover:text-blue-600">Program</a>
           <a href="#tutors" class="hover:text-blue-600">Tutors</a>
           <a href="#contact" class="hover:text-blue-600">Contact</a>
@@ -84,6 +84,36 @@
       </div>
     </section>
 
+    <!-- Services Preview Section -->
+    <section id="services-preview" class="max-w-6xl mx-auto py-16 px-6">
+      <h3 class="text-3xl font-semibold text-blue-700 mb-8 text-center">Our Services</h3>
+      <p class="text-center text-gray-700 mb-10 max-w-3xl mx-auto">
+        Jetos Solutions provides practical, innovative technology services and training programs that empower learners, startups, and organizations to grow digitally.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <h4 class="text-xl font-bold text-blue-600 mb-2">Tech Training</h4>
+          <p>We offer hands-on coding and digital skills programs designed to help learners master practical IT skills.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <h4 class="text-xl font-bold text-blue-600 mb-2">Software Development</h4>
+          <p>We build custom software solutions tailored for schools, businesses, and community projects.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
+          <h4 class="text-xl font-bold text-blue-600 mb-2">Consultancy & Mentorship</h4>
+          <p>We mentor and guide organizations and individuals in adopting technology effectively and sustainably.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-10">
+        <a href="services.html"
+          class="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-full shadow hover:bg-blue-700 transition">
+          View All Services
+        </a>
+      </div>
+    </section>
+
     <!-- Target Audience -->
     <section id="audience" class="max-w-5xl mx-auto py-16 px-6">
       <h3 class="text-3xl font-semibold text-blue-700 mb-4">Our Target Audience</h3>
@@ -120,7 +150,7 @@
         <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
           <img src="/images/sharif.png" alt="Tutor 1" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
           <h4 class="text-xl font-bold text-blue-700">Sharif Magembe</h4>
-          <p class="text-gray-600">Lead Instructor — Software Engineering: Proven Experience in Project Delivery in Health sector, Mentoring young students to grow in Tech</p>
+          <p class="text-gray-600">Lead Instructor — Software Engineering</p>
           <p class="mt-3 text-sm text-gray-700">
             Passionate about helping learners build strong foundations in programming and real-world applications.
           </p>
@@ -128,8 +158,8 @@
         <!-- Tutor 2 -->
         <div class="bg-white rounded-xl shadow hover:shadow-lg transition p-6 text-center">
           <img src="/images/mozzy.png" alt="Tutor 2" class="w-32 h-32 mx-auto rounded-full mb-4 object-cover" />
-          <h4 class="text-xl font-bold text-blue-700"> Mr Mutesasira Moses</h4>
-          <p class="text-gray-600"> Instructor Lead, Senior Software Engineer with 10+ Years of Experience with Proven Project Delivery both In Health Sector and Other Out side world</p>
+          <h4 class="text-xl font-bold text-blue-700">Mr Mutesasira Moses</h4>
+          <p class="text-gray-600">Instructor Lead — Software Development</p>
           <p class="mt-3 text-sm text-gray-700">
             Focused on mentoring learners to design beautiful, functional web applications using modern technologies.
           </p>
