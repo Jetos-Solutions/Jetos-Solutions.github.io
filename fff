@@ -1,0 +1,19 @@
+echo "🔁 Merging custom backend modules..."
+
+TARGET_MODULE_DIR="$BUILD_SOURCESDIRECTORY/openmrs-distro-referenceapplication/distro/target/sdk-distro/web/openmrs_modules"
+CUSTOM_MODULE_DIR="$BUILD_SOURCESDIRECTORY/backend/modules"
+
+TARGET_FRONTEND_DIR="$BUILD_SOURCESDIRECTORY/openmrs-distro-referenceapplication/frontend"
+CUSTOM_FRONTEND_DIR="$BUILD_SOURCESDIRECTORY/O3"
+
+# Copy all custom modules into the target module folder
+cp -ru "$CUSTOM_MODULE_DIR/"* "$TARGET_MODULE_DIR/"
+
+echo "✅ Custom backend modules copied to $TARGET_MODULE_DIR"
+
+echo "🔁 Replacing frontend spa-build-config.json..."
+
+cp "$CUSTOM_FRONTEND_DIR/spa-build-config.json" "$TARGET_FRONTEND_DIR/spa-build-config.json"
+
+echo "✅ Custom frontend files copied to $TARGET_FRONTEND_DIR"
+
